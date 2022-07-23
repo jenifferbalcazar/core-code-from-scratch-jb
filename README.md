@@ -95,5 +95,37 @@
                 la $a0, nombre
                 syscall
 
-  **N° 6 - Week challenges (Jueves)**
+  **N° 6 - Week challenges (Jueves) - imprimir números especiales**
+  
+  **1 - CICLO FOR**
+  
+	for (let i = 2; i <=100; i++) 
+	    {
+		if(i % 2 == 0){
+		  console.log(i);
+		 }
+	     }
 
+  **2 - CICLO WHILE**
+
+        let n = 0;
+	
+        while (n <= 100) {
+	     n++;
+	     if(n % 2 == 0){
+		console.log(n);
+	     }
+        }
+
+**3 - CICLO DO WHILE** 
+
+        let j = 0;
+	
+        do 
+	{
+        j++;
+           if(j % 2 == 0){
+              console.log(j);
+            }
+        } 
+	while (j <=100);
