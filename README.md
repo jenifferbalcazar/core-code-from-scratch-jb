@@ -24,3 +24,19 @@
   4. TOTAL_CONVERTER    <-- BTC * DOLLAR
   5. PRINT DOLLAR + "dollars are equal to" + TOTAL_CONVERTER + "BITCOINS."
   6. END
+
+**N° 4 - Week challenges (Wednesday) - Escribir el año de nacimiento en BINARIO**
+
+  - 2000/2= 1000  **R: 0**  LSB
+  - 1000/2= 500   **R: 0**   ↑
+  - 500/2 = 250   **R: 0**   -
+  - 250/2 = 125   **R: 0**   -
+  - 125/2 = 62    **R: 1**   -
+  - 62/2 = 31     **R: 0**   -
+  - 31/2 = 15     **R: 1**   -
+  - 15/2 = 7      **R: 1**   -
+  - 7/2 = 3       **R: 1**   -
+  - 3/2 = 1       **R: 1**   -
+  - 1/2 = 0       **R: 1**  MSB
+  
+  **RESULTADO:** 11111010000
