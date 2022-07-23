@@ -13,3 +13,7 @@
 **Interpretado:** Es cuando se escribe un código y se ejecuta directamente. Lo bueno aquí, es que no importa mucho el tipo de máquina que tenga la persona que lo ejecutará, si se requiere probar el programa solo se corre y ya. Lo malo es que la otra máquina necesita de un intérprete y que se comparta la fuente de código completa. **Ej:** PHP, JavaScrip, TypeScript.
 
 **N° 2 - ¿Java es un lenguaje interpretado, compilado o ambos?**
+
+**Java es ambos:** Es compilado a un lenguaje intermedio llamado "bytecode" que luego es interpretado/compilado por el JVM(Java Virtual Machine). Los creadores querían crear un lenguaje compilado pero que éste se pudiera ejecutar en cualquier SO. Al momento de programar ya las líneas de código, es necesario instalar el JRE(Java Runtime Environment), que es el que se encarga de interpretar el bytecpde, e incluso el JDK(Java Development Kit) que incluye el compilador.
+
+**N° 3 - Pseudocode Currency Converter EJERCICIO**
