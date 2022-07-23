@@ -17,3 +17,10 @@
 **Java es ambos:** Es compilado a un lenguaje intermedio llamado "bytecode" que luego es interpretado/compilado por el JVM(Java Virtual Machine). Los creadores querían crear un lenguaje compilado pero que éste se pudiera ejecutar en cualquier SO. Al momento de programar ya las líneas de código, es necesario instalar el JRE(Java Runtime Environment), que es el que se encarga de interpretar el bytecpde, e incluso el JDK(Java Development Kit) que incluye el compilador.
 
 **N° 3 - Pseudocode Currency Converter EJERCICIO**
+
+  1. START
+  2. BTC                <-- 0,000044
+  3. DOLLAR             <-- GET
+  4. TOTAL_CONVERTER    <-- BTC * DOLLAR
+  5. PRINT DOLLAR + "dollars are equal to" + TOTAL_CONVERTER + "BITCOINS."
+  6. END
