@@ -142,6 +142,24 @@
         console.log('The cond variable is false');
         }
 	
-	Este es el código correcto, los dos errores que habían eran:
-		-Había un paréntesis de más en el condicional <  ((cond = true))  >
-		-Para hacer la comparación se necesitan de dos símbolos de igual, ahí solo había uno. <  cond = true  >
+Este es el código correcto, los dos errores que habían eran:
+	-Había un paréntesis de más en el condicional <  ((cond = true))  >
+	-Para hacer la comparación se necesitan de dos símbolos de igual, ahí solo había uno. <  cond = true  >
+
+**Código 2**
+
+	var numero;
+        numero = prompt("Ingrese un número:");
+
+        if (numero == 100) {
+        console.log('This is a special number!');
+        }
+        if (numero < 1000 && numero % 10 == 0 && numero != 100) {
+        console.log('This number is almost special');
+        } 
+        else {
+        console.log('Just a regular number');
+        }
+	
+Este es el código correcto, los dos errores que vi fueron:
+	-El ejercicio planteaba que dado una número se hicieran 3 validaciones al mismo tiempo y en el ejercicio planteado estaban separados. Aqui se usa el operador 		lógico &&, que si las tres son verdaderas, entonces muestra el resultado verdadero, y si alguna fuese falsa, muestra el resultado por el lado falso.
