@@ -40,3 +40,60 @@
   - 1/2 = 0       **R: 1**  MSB
   
   **RESULTADO:** 11111010000
+  
+  **N° 5 - Week challenges (Miércoles) - MIPS**
+  
+**1. Sumar dos números**
+
+    .data
+	      titulo: .asciiz "\n Programa para sumar dos dígitos :D"
+	      numero1: .asciiz "\nIngrese el primer numero: "
+	      numero2: .asciiz "\nIngrese el segundo numero: "
+	      resultado: .asciiz "\nEl resultado de la suma es: "
+	     
+     .text
+	      main:
+	      li $v0, 4
+              la $a0, titulo
+              syscall 
+              
+              li $v0, 4
+              la $a0, numero1
+              syscall
+
+              li $v0, 5
+              syscall
+
+              move $t0, $v0
+
+              li $v0, 4
+              la $a0, numero2
+              syscall
+
+              li $v0, 5
+              syscall
+
+              move $t1, $v0
+              
+              add $t2, $t0, $t1
+
+              li $v0, 4
+              la $a0, resultado
+              syscall 
+              
+              li $v0, 1
+              move $a0, $t2
+              syscall
+              
+**2. Imprimir el nombre**
+
+    .data
+          nombre: .asciiz "\nJeniffer Balcazar :D"
+    .text
+          main:
+                li $v0, 4
+                la $a0, nombre
+                syscall
+
+  **N° 6 - Week challenges (Jueves)**
+
