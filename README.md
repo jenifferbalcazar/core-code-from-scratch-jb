@@ -129,3 +129,19 @@
             }
         } 
 	while (j <=100);
+	
+**Encontrar errores en los códigos**
+
+**Código 1**
+
+        var cond = true;
+
+        if (cond == true) {
+        console.log('The cond variable is true');
+        } else {
+        console.log('The cond variable is false');
+        }
+	
+	Este es el código correcto, los dos errores que habían eran:
+		-Había un paréntesis de más en el condicional <  ((cond = true))  >
+		-Para hacer la comparación se necesitan de dos símbolos de igual, ahí solo había uno. <  cond = true  >
