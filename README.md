@@ -4,6 +4,9 @@
 
 **Estudiante:** Jeniffer Balcazar Justiniano :arrow_up:
 
+Ver Semana 1 [here](semana1.md)
+
+
 > SEMANA 1 - TAREAS
 
 **N°1 - Lenguajes de programación compilados e interpretados**
