@@ -4,6 +4,6 @@
 
 **Estudiante:** Jeniffer Balcazar Justiniano :arrow_up:
 
-> Ver Semana 1 [here](semana1.md)
+> Ver Semana 1 [Aquí](semana1.md)
 
-> Ver Semana 2 [here](semana2.md)
+> Ver Semana 2 [Aquí](semana2.md)
